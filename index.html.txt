@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE 299: Hardware Projects Using Raspberry Pi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CSE 299: Hardware Projects Using Raspberry Pi</h1>
+    </header>
+    
+    <main class="projects-container">
+        <div class="project-tile" onclick="location.href='project1.html';">
+            <h2>Smart Home Automation</h2>
+        </div>
+        <div class="project-tile" onclick="location.href='project2.html';">
+            <h2>Weather Station</h2>
+        </div>
+        <div class="project-tile" onclick="location.href='project3.html';">
+            <h2>Security Camera</h2>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
